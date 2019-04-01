@@ -1,3 +1,51 @@
 {
-    "streams": []
+  "streams": [
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 1
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 2
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 3
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "title": "sd",
+      "description": "ds",
+      "id": 9
+    },
+    {
+      "title": "sd",
+      "description": "ds",
+      "id": 10
+    },
+    {
+      "title": "Mine",
+      "description": "my stream ",
+      "id": 11
+    }
+  ]
 }
