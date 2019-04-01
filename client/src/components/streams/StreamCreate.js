@@ -24,7 +24,7 @@ class StreamCreate extends Component {
    
 
     onSubmit(formValues) {
-        
+        console.log(formValues)
     }
 
     render() {
