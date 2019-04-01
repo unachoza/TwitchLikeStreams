@@ -5,7 +5,7 @@ import {createStream} from '../../actions'
 
 class StreamCreate extends Component {
     renderInput = ({ input, label, meta }) =>{
-        console.log(meta)
+        // console.log(meta)
         return (
             <div className="field">
                 <label>{label}</label>
