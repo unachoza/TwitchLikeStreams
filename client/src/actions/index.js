@@ -8,6 +8,7 @@ import {
     DELELTE_STREAM,
     EDIT_STREAM
 } from './types'
+import history from '../history'
 
 export const signIn = userId => {
     return {
@@ -25,7 +26,9 @@ export const signOut = () => {
 export const createStream = formValues => async (dispatch, getState) => {
     const {userId} = getState().auth
     const response = await streams.post('/streams', { ...formValues, userId })
-    dispatch({type: CREATE_STREAM, payload: response.data})
+    dispatch({ type: CREATE_STREAM, payload: response.data })
+    history.push('/')
+    //navigate user back to streams after shown a success or error message
     }
 
 export const fetchStreams = () => async dispatch => {
