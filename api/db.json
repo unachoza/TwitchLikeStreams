@@ -1,51 +1,32 @@
 {
   "streams": [
     {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 1
+      "title": "Need to see this",
+      "description": "please get in the database",
+      "id": 14
     },
     {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 2
+      "title": "Reasonable",
+      "description": "This is reasonably nice",
+      "id": 15
     },
     {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 3
+      "title": "Sassy PATCH ",
+      "description": "my edits are done with PATCH and i'm cool with that",
+      "userId": "109949899666671594006",
+      "id": 17
     },
     {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 4
+      "title": "Personal",
+      "description": "I personally made this",
+      "userId": "109949899666671594006",
+      "id": 18
     },
     {
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "title": "sd",
-      "description": "ds",
-      "id": 9
-    },
-    {
-      "title": "sd",
-      "description": "ds",
-      "id": 10
-    },
-    {
-      "title": "Mine",
-      "description": "my stream ",
-      "id": 11
+      "title": "New",
+      "description": "This is my newest stream",
+      "userId": "109949899666671594006",
+      "id": 19
     }
   ]
 }
