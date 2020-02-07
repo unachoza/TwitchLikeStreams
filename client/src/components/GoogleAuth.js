@@ -5,16 +5,20 @@ import {signIn, signOut} from '../actions'
 class GoogleAuth extends Component{
 
     componentDidMount() {
+        console.log(process.env.REACT_APP_GOOGLE_CLIENT)
         window.gapi.load('client:auth2', () => {
             window.gapi.client.init({
                 clientId : '820118529267-k0spahsabie4dqajgnhplqb82ao57vsh.apps.googleusercontent.com',
                 scope: 'email'
             }).then(() => {
                 this.auth = window.gapi.auth2.getAuthInstance()
+            console.log("mean something", this.auth)
+                
                 this.onAuthChange(this.auth.isSignedIn.get())
                 this.auth.isSignedIn.listen(this.onAuthChange)
 
             })
+            console.log(this.auth)
         })
     }
 
@@ -34,6 +38,7 @@ class GoogleAuth extends Component{
     }
     renderAuthButton() {
     if (this.props.isSignedIn === null) {
+
         return <div>Maybe</div>
     } else if (this.props.isSignedIn) {
         return (
